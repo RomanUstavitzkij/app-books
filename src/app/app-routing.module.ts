@@ -6,7 +6,7 @@ import {BooksListComponent} from "./books-list/books-list.component";
 import {BookDetailsComponent} from "./book-details/book-details.component";
 
 const routes: Routes = [
-  {path: 'books-list', component: BookDetailsComponent},
+  {path: 'books-list', component: BooksListComponent},
   {path: 'books/:bookId', component: BookDetailsComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'about-us', component: AboutUsComponent},
