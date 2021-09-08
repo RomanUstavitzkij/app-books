@@ -4,8 +4,10 @@ import {ContactComponent} from "./contact/contact.component";
 import {AboutUsComponent} from "./about-us/about-us.component";
 import {BooksListComponent} from "./books-list/books-list.component";
 import {BookDetailsComponent} from "./book-details/book-details.component";
+import {UserProfileComponent} from "./user-profile/user-profile.component";
 
 const routes: Routes = [
+  {path: 'user-profile', component: UserProfileComponent},
   {path: 'books-list', component: BooksListComponent},
   {path: 'books/:bookId', component: BookDetailsComponent},
   {path: 'contact', component: ContactComponent},
