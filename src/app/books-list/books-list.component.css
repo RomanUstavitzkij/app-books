@@ -1,0 +1,43 @@
+.app-books-wrap .app-h2{
+  margin: 15px;
+}
+.app-book-list {
+  margin: 0 15px;
+}
+.app-book-list > li{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: -1px 2px 17px 1px rgba(0,0,0,0.3);
+  box-shadow: -1px 2px 17px 1px rgba(0,0,0,0.3);
+}
+.app-book-list > li > section {
+  position: relative;
+  margin-left: 35px;
+}
+.app-book-list > li .app-h1 img{
+  position: absolute;
+  left: -20px;
+  top: 6px;
+}
+.app-book-list > li .app-h1 {
+  margin: 5px 0;
+}
+.app-book-list > li > aside {
+  margin-right: 15px;
+}
+.app-book-list .app-book-genre {
+  display: flex;
+  margin: 5px 0;
+}
+.app-book-list .app-book-genre > li{
+  margin-right: 10px;
+}
+.app-book-list .app-book-description {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.app-book-list > li:hover {
+  opacity: 0.5;
+}
