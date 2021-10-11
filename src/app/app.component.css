@@ -1,19 +1,63 @@
-.toolbar {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  background-color: #1976d2;
-  color: white;
-  font-weight: 600;
+body{
+  font-size: 1.25em;
 }
-
-.toolbar img {
-  margin: 0 16px;
-}
-.main_menu > ul{
+.header{
+  width: 100%;
+  padding: 15px;
+  background: gold;
+  border-width: 1px;
+  border-style: solid;
+  border-color: orange;
   display: flex;
 }
-
-.main_menu > ul li {
-  margin-left: 20px;
+.header>ul{
+  margin-left: 50px;
+}
+.header>ul li{
+  float: left;
+  margin-left: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.title{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.title>h1{
+  font-size: 2rem;
+}
+.book{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+.book_name{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+.book_name>h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+.book_body{
+  padding-top: 20px;
+  display: flex;
+}
+.book_body>span{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.footer{
+  margin-top: 15px;
+  border: 1px solid orange;
+  background: gold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

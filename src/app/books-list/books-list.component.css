@@ -1,43 +1,63 @@
-.app-books-wrap .app-h2{
-  margin: 15px;
+.body{
+  font-size: 1.25em;
 }
-.app-book-list {
-  margin: 0 15px;
-}
-.app-book-list > li{
+.header{
+  width: 100%;
+  padding: 15px;
+  background: gold;
+  border-width: 1px;
+  border-style: solid;
+  border-color: orange;
   display: flex;
-  padding: 10px;
-  margin-bottom: 20px;
-  -webkit-box-shadow: -1px 2px 17px 1px rgba(0,0,0,0.3);
-  box-shadow: -1px 2px 17px 1px rgba(0,0,0,0.3);
 }
-.app-book-list > li > section {
-  position: relative;
-  margin-left: 35px;
+.header>ul{
+  margin-left: 50px;
 }
-.app-book-list > li .app-h1 img{
-  position: absolute;
-  left: -20px;
-  top: 6px;
+.header>ul li{
+  float: left;
+  margin-left: 15px;
 }
-.app-book-list > li .app-h1 {
-  margin: 5px 0;
+a{
+  text-decoration: none;
+  color: black;
 }
-.app-book-list > li > aside {
-  margin-right: 15px;
+.title{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
-.app-book-list .app-book-genre {
+.title>h1{
+  font-size: 2rem;
+}
+.book{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+.book_name{
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
+.book_name>h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
+}
+.book_body{
+  padding-top: 20px;
   display: flex;
-  margin: 5px 0;
 }
-.app-book-list .app-book-genre > li{
-  margin-right: 10px;
+.book_body>span{
+  margin-top: 10px;
+  margin-left: 15px;
 }
-.app-book-list .app-book-description {
-  font-size: 12px;
-  font-weight: 300;
-}
-
-.app-book-list > li:hover {
-  opacity: 0.5;
+.footer{
+  margin-top: 15px;
+  border: 1px solid orange;
+  background: gold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
